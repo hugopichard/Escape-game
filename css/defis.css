@@ -10,6 +10,22 @@
  right: 0;
 }
 
-.back{
+.racoonimg{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
+.question{
+  color: white;
+  text-align: center;
+}
+
+#restart{
+  display: none;
+}
+
+#chiffre1{
+  color: red;
+  display: none;
 }

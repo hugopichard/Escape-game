@@ -7,3 +7,13 @@ function test_code() {
           alert("Faux");
       }
 }
+
+
+function changeimg() {
+	    document.getElementById('imgdef1').src = "assets/angryracoon.jpg";
+      document.getElementById('restart').style.display = "block";
+}
+
+function windefi1(){
+  document.getElementById('chiffre1').style.display = "block";
+}
