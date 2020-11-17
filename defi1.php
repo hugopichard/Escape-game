@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<?php
+include_once("php/code.php");
+
+$code = new code;
+$codeentier = $code->get_Code();
+?>
+
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -21,9 +29,16 @@
             <div class="restart">
               <button type="button" name="button" id="restart" onclick="history.go(0)">restart</button>
             </div>
-            <div class="chiffre1">
-              <h2 id="chiffre1">le premier numero du code est 1</h2>
-            </div>
+                <div id="chiffre1">
+                    <?php
+                    $codeentier = $code->get_Code();
+                    foreach($codeentier as $c)
+                    {?>
+                        <h3>Le premier numéro du code est : <?php echo($c['nombre1']);?> </h3>
+                    <?php
+                    }
+                    ?>
+                </div>
           </div>
       </div>
     </div>
