@@ -37,4 +37,28 @@ class Users {
         }
     }
 }
+
+
+class code {
+
+    function get_Code()
+        {
+          global $db;
+
+          $request = "SELECT * FROM code";
+          $resultat = $db->query($request);
+          $user = $resultat->fetchAll();
+
+
+          return($user);
+        }
+
+    function updatecode($nombre1= "nombre1", $nombre2 = "nombre2", $nombre3 = "nombre3", $id = "1")
+        {
+            global $db;
+
+            $request = $db->prepare('UPDATE code SET nombre1=?, nombre2=?, nombre3=? WHERE id="1"');
+            $request->execute([$nombre1, $nombre2, $nombre3]);
+        }
+    }
 ?>
