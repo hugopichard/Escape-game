@@ -18,7 +18,7 @@ $codeentier = $code->get_Code();
 
         <div class="admin">
             <h1>Admin</h1>
-            <a href="index.html">
+            <a href="index.php">
                 <div class="titre">retour</div>
             </a>
             <a href="php/disconnect.php">
