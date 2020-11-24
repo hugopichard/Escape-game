@@ -63,8 +63,5 @@ $codeentier = $code->get_Code();
 
 
 
-
-
-
     </body>
     </html>

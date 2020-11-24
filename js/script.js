@@ -1,3 +1,5 @@
+/////////test Code////////////////
+
 function test_code() {
   let r = window.prompt("Code secret?");
       if (r == 2658) {
@@ -9,6 +11,10 @@ function test_code() {
 }
 
 
+
+/////////defis1////////////////
+
+
 function changeimg() {
 	    document.getElementById('imgdef1').src = "assets/angryracoon.jpg";
       document.getElementById('restart').style.display = "block";
@@ -17,3 +23,7 @@ function changeimg() {
 function windefi1(){
   document.getElementById('chiffre1').style.display = "block";
 }
+
+
+
+/////////defis2////////////////

@@ -36,7 +36,7 @@
                         <section class="icon fas fa-question-circle" onclick="window.open('defi1.php', 'windoname', 'width=500, height=350, left=24, top=24'); return false;"><span class="title">Défis 1</span></section>
                       </div>
                       <div class="page" id="p3">
-                        <section class="icon fas fa-times" onclick="#"><span class="title">Défis 2</span></section>
+                        <section class="icon fas fa-times" onclick="window.open('defi2.php', 'windoname', 'width=500, height=350, left=24, top=24')"><span class="title">Défis 2</span></section>
                       </div>
                       <div class="page" id="p4">
                         <section class="icon fa fa-plus-circle" onclick="#"><span class="title">Défis 3</span></section>
