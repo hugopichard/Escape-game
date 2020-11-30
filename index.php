@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
     <script src="js/script.js" charset="utf-8"></script>
     <script src="jquery-3.5.1.min.js"></script>
@@ -54,7 +54,7 @@
                         <section class="icon fas fa-trophy" onclick="test_code();"><span class="title">Tester son code secret</span></section>
                       </div>
                       <div class="page" id="p9">
-                        <section class="icon fas fa-cog" onclick="location.href='admin.php'"><span class="title">Admin</span></section>
+                        <section class="icon fas fa-cog" onclick="location.href='login.php'"><span class="title">Admin</span></section>
                       </div>
                     </div>
                   </div>

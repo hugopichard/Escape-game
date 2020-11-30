@@ -1,5 +1,6 @@
 <?php
 session_start();
-$_SESSION["account"] = [];
+session_destroy();
 header('Location: ../index.php');
+exit;
 ?>

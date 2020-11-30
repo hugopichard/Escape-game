@@ -53,12 +53,12 @@ class code {
           return($user);
         }
 
-    function updatecode($nombre1= "nombre1", $nombre2 = "nombre2", $nombre3 = "nombre3", $id = "1")
+    function updatecode($nombre1= "nombre1", $nombre2 = "nombre2", $nombre3 = "nombre3", $nombre4 = "nombre4", $nombre5 = "nombre5", $id = "1")
         {
             global $db;
 
-            $request = $db->prepare('UPDATE code SET nombre1=?, nombre2=?, nombre3=? WHERE id="1"');
-            $request->execute([$nombre1, $nombre2, $nombre3]);
+            $request = $db->prepare('UPDATE code SET nombre1=?, nombre2=?, nombre3=?, nombre4=?, nombre5=? WHERE id="1"');
+            $request->execute([$nombre1, $nombre2, $nombre3, $nombre4, $nombre5 ]);
         }
     }
 ?>

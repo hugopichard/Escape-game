@@ -1,0 +1,52 @@
+.window{
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.rectangle1{
+  background-color: white
+}
+
+.admin{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.admin{
+  margin-top: 25px;
+}
+
+.identifiant, .addnb{
+  margin-top: 20px;
+}
+
+.motDePasse, .addnb2, .addnb3, .addnb4, .addnb5{
+  margin-top: 10px;
+}
+
+.connection, .change{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.retour, .deco{
+  margin: 10px;
+}
