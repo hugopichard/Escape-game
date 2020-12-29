@@ -21,11 +21,12 @@
   text-align: center;
 }
 
+
 #restart{
   display: none;
 }
 
-#chiffre1{
+#chiffre1, #chiffre2 {
   color: red;
   display: none;
 }

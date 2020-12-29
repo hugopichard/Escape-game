@@ -20,10 +20,20 @@ function changeimg() {
       document.getElementById('restart').style.display = "block";
 }
 
-function windefi1(){
-  document.getElementById('chiffre1').style.display = "block";
+function windefi1() {
+      document.getElementById('chiffre1').style.display = "block";
 }
 
 
 
 /////////defis2////////////////
+
+function getValue() {
+      var input = document.getElementById("in").value;
+      if (input == "Quel est le numéro 2?") {
+        document.getElementById('chiffre2').style.display = "block";
+      }
+      else {
+        alert("Ce n'est pas la bonne question");
+      }
+}
