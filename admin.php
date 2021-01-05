@@ -34,9 +34,10 @@ $codeentier = $code->get_Code();
                         <?php
                           $codeentier = $code->get_Code();
                           foreach($codeentier as $c)
-                            {?>
-                              <div class="code">code secret: <?php echo($c['nombre1']); echo($c['nombre2']); echo($c['nombre3']); echo($c['nombre4']); echo($c['nombre5']);?></div>
-                            <?php
+                            {
+                        ?>
+                            <div class="code">code secret: <?php echo($c['nombre1']); echo($c['nombre2']); echo($c['nombre3']); echo($c['nombre4']); echo($c['nombre5']);?></div>
+                        <?php
                             }
                         ?>
                       <div class="retour">
@@ -51,23 +52,20 @@ $codeentier = $code->get_Code();
       </body>
       </html>
 
-                <?php
-                if(isset($_POST['change'])){
-                    if($_POST['nb1'] != NULL && $_POST['nb2'] != NULL && $_POST['nb3'] != NULL && $_POST['nb4'] != NULL && $_POST['nb5'] != NULL)
-                    {
-                        $nombre1 = ($_POST['nb1']);
-                        $nombre2 = ($_POST['nb2']);
-                        $nombre3 = ($_POST['nb3']);
-                        $nombre4 = ($_POST['nb4']);
-                        $nombre5 = ($_POST['nb5']);
+          <?php
+          if(isset($_POST['change'])){
+              if($_POST['nb1'] != NULL && $_POST['nb2'] != NULL && $_POST['nb3'] != NULL && $_POST['nb4'] != NULL && $_POST['nb5'] != NULL)
+              {
+                $nombre1 = ($_POST['nb1']);
+                $nombre2 = ($_POST['nb2']);
+                $nombre3 = ($_POST['nb3']);
+                $nombre4 = ($_POST['nb4']);
+                $nombre5 = ($_POST['nb5']);
 
-                        $code->updatecode($nombre1, $nombre2, $nombre3, $nombre4, $nombre5);
-                    }
-                }
-                ?>
-
-
-
+                $code->updatecode($nombre1, $nombre2, $nombre3, $nombre4, $nombre5);
+              }
+          }
+          ?>
 
     </body>
     </html>
