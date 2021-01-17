@@ -1,32 +1,42 @@
 .container {
- display: flex;
- position: absolute;
- height: 100vh;
- width: 100%;
- background-color: black;
- top: 0;
- bottom: 0;
- left: 0;
- right: 0;
+  display: flex;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-.racoonimg{
+.racoonimg {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.question{
+.question {
   color: white;
   text-align: center;
 }
 
-
-#restart{
+#restart {
   display: none;
 }
 
-#chiffre1, #chiffre2 {
+#chiffre1, #chiffre2, #chiffre3 {
   color: red;
   display: none;
+}
+
+#resultat{
+  background-color: red;
+}
+
+#Votrenombre {
+  font-family:arial;
+  font-size: 18px;
+  text-align: center;
+  color: black;
 }

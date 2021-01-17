@@ -39,7 +39,7 @@ if(isset($_POST["submit"]))
                         <input type="text" placeholder="Identifiant" class="identifiant" name="uname" required>
                         <label for="psw"></label>
                         <input type="password" placeholder="Mot de passe" class="motDePasse" name="psw" required>
-                        <button type="submit" name="submit" class="connection" value="OK">Connection</button>
+                        <button type="submit" name="submit" class="connection" value="OK">Connexion</button>
                     </div>
                     <div class="retour">
                         <a href="index.php">Retour</a>
